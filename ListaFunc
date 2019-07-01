@@ -1,0 +1,10 @@
+Funcionario func = new Funcionario();
+        boolean acesso = false;
+        if (Backup.lista2.Listar(func)!= null){
+            Backup.lista2.Listar(func);
+            acesso = true;
+        }else if (acesso = false){
+            JOptionPane.showMessageDialog(null, "Nenhum Funcionário Cadastrado");
+        }   
+ 
+    }
