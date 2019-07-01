@@ -1,0 +1,3 @@
+Administrador admin = new Administrador();
+        Backup.lista1.Listar(admin);
+        Backup.lista3.Listar();
